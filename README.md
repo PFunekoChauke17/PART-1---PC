@@ -17,6 +17,8 @@ Reference
 
 - Hospitality Technology Next Generation (HTNG), 2022. Guest-facing technology adoption survey. [Online]. Available at: https://www.htng.org [Accessed 15 April 2026]
 
-- Geeksforgeeks (2026) Create a Resize and Compress Images in HTML Available at : https://www.geeksforgeeks.org/javascript/create-a-resize-and-compress-images-in-html-css-javascript/
+- Geeksforgeeks (2026) Create a Resize and Compress Images in HTML Available at : https://www.geeksforgeeks.org/javascript/create-a-resize-and-compress-images-in-html-css-javascript/ ( Accessed: 18 April 2026)
+
+- Available at : https://wallpapercave.com/hotel-summer-wallpapers (Acessed: 20 April 2026)
   
 - Google (2026) Google . Available at: https://www.bing.com/images/search?view=detailV2&ccid=7BhETl0R&id=EB5DEB7039CC673645AF7B154867BC819FDA4A82&thid=OIP.7BhETl0R80lWMVTT-4wh_gHaEd&mediaurl=https%3A%2F%2Fmedia.cnn.com%2Fapi%2Fv1%2Fimages%2Fstellar%2Fprod%2F170526141641-worlds-best-hotel-gyms-marriott-abu-dhabi-al-forsan.jpg%3Fq%3Dw_3317%2Ch_1996%2Cx_0%2Cy_0%2Cc_fill%2Fh_618&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.ec18444e5d11f349563154d3fb8c21fe%3Frik%3Dgkran4G8Z0gVew%26pid%3DImgRaw%26r%3D0&exph=618&expw=1027&q=hotel+pictures+4k+GYM&form=IQFRBA&ck=54459C6DF0AFB05A9AF0D7FBB5D50451&selectedindex=0&ajaxhist=0&ajaxserp=0&vt=0&sim=11 ( Accessed: 20 April 2026)

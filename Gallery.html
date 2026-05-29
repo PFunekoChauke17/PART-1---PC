@@ -3,58 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Gallery</title>
+    <meta name="description" content="NEL WINSTON HOTEL Gallery - View our luxury rooms, pool, gym, and restaurant.">
+    <title>Gallery | NEL WINSTON HOTEL</title>
+    <!-- External CSS Stylesheet - Part 2 Requirement -->
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <Header>
+
+    <!-- Header -->
+    <header>
+        <h1>NEL WINSTON HOTEL</h1>
         <nav>
-            <h2>NEL WINSTON HOTEL></h2>
-            <hr>
-            <a href="Index.html">Home</a>
-            <a href="About.html">About</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
             <a href="services.html">Services</a>
-            <a href="Gallery.html">Gallery</a>
-            <a href="Contact.html">Contact Us</a>
-            <a href="Booknow.html">Book Now</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+            <a href="booknow.html" class="book-now-btn">Book Now</a>
         </nav>
-    </Header>
+    </header>
+
     <main>
-        <style>
-body{font-family:Arial;margin:0;background:#f4f4f4;}
-header{background:#1e1e1e;color:white;padding:15px;text-align:center;}
-.gallery{display:flex;flex-wrap:wrap;justify-content:center;padding:20px;}
-.gallery img{width:300px;height:200px;object-fit:cover;margin:10px;border-radius:10px;transition:0.3s;cursor:pointer;}
-.gallery img:hover{transform:scale(1.05);}
-</style>
-</head>
-<body>
+        <section class="gallery-page">
+            <h1>Hotel Gallery</h1>
 
-<header>
-<h1>Hotel Gallery</h1>
-</header>
-
-<div class="gallery">
-<img src="images/SAUNA introspectivedsgn-4062524.jpg">
-<img src="images/PPPPPPfa6fdd7ba2729ae12120347e9d061a45.jpg">
-<img src="images/pexels-introspectivedsgn-4062524.jpg">
-<img src="images/pexels-quang-nguyen-vinh-222549-14021929.jpg">
-<img src="images/pexels-pete79-27548238.jpg">
-<img src="images/170526141641-worlds-best-hotel-gyms-marriott-abu-dhabi-al-forsan.jpg">
-<img src="Images/pexels-didi-lecatompessy-2149441489-33125906.jpg">
-<img src="Images/pngtree-contemporary-dining-experience-3d-render-of-hotel-restaurant-interior-image_3904096.jpg">
-</div>
-
-</body>
-        
+            <div class="gallery-grid">
+                <img src="Images(Assets)/SAUNA introspectivedsgn-4062524.jpg" alt="Hotel Sauna" loading="lazy">
+                <img src="Images(Assets)/PPPPPPfa6fdd7ba2729ae12120347e9d061a45.jpg" alt="Hotel Pool" loading="lazy">
+                <img src="Images(Assets)/Sofitel-Dubai-Wafi-Luxury-Room-Bedroom-Skyline-View-Image1_WEB.jpg" alt="Luxury Room" loading="lazy">
+                <img src="Images(Assets)/170526141641-worlds-best-hotel-gyms-marriott-abu-dhabi-al-forsan.jpg" alt="Hotel Gym" loading="lazy">
+                <img src="Images(Assets)/pngtree-contemporary-dining-experience-3d-render-of-hotel-restaurant-interior-image_3904096.jpg" alt="Hotel Restaurant" loading="lazy">
+                <img src="Images(Assets)/pexels-pete79-27548238.jpg" alt="Hotel Lobby" loading="lazy">
+                <img src="Images(Assets)/R.jpg" alt="Hotel Spa" loading="lazy">
+                <img src="Images(Assets)/dmo-Seven-suites-01-Beijing.avif" alt="Executive Suite" loading="lazy">
+            </div>
+        </section>
     </main>
-    
 
-    <!--Footer-->
-    <footer style="text-align: center;">
-        <hr>
-        <p>&copy; Copyrights | Nel Wiston Hotel 2026</p>
-
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 NEL WINSTON HOTEL. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
-        

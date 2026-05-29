@@ -3,52 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NEL WINSTON HOTEL</title>
+    <meta name="description" content="NEL WINSTON HOTEL - Experience luxury accommodation, spa, gym, and swimming pool. Book your stay today.">
+    <title>NEL WINSTON HOTEL | Luxury Accommodation</title>
+    <!-- External CSS Stylesheet - Part 2 Requirement -->
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
-<body style="margin:0; font-family: Arial, sans-serif; background-image:url('https://images.unsplash.com/photo-1501117716987-c8e1ecb2102b?auto=format&fit=crop&w=1920&q=80'); background-size:cover; background-position:center; background-repeat:no-repeat;">
+<body>
+
+    <!--background-->
+   <title>Background Image Example</title>
+    <style>
+        /* Apply background to the whole page */
+        body {
+            /* Use relative path to your image */
+            background-image: url("https://wallpaperaccess.com/full/2690984.jpg");
+            background-size: cover;       /* Make image cover the whole area */
+            background-repeat: no-repeat; /* Prevent tiling */
+            background-position: center;  /* Center the image */
+            margin: 0;
+            height: 100vh; /* Full viewport height */
+        }
+
+    </style>
 
     <!-- Header -->
-    <header style="background-color:#333; color:white; padding:15px; display:flex; justify-content:space-between; align-items:center;">
-        <h1 style="margin:0;">NEL WINSTON HOTEL</h1>
+    <header>
+        <h1>NEL WINSTON HOTEL</h1>
         <nav>
-            <a href="index.html" style="color:white; margin-right:15px; text-decoration:none;">Home</a>
-            <a href="about.html" style="color:white; margin-right:15px; text-decoration:none;">About</a>
-            <a href="services.html" style="color:white; margin-right:15px; text-decoration:none;">Services</a>
-            <a href="Gallery.html" style="color:white; margin-right:15px; text-decoration:none;">Gallery</a>
-            <a href="contact.html" style="color:white; margin-right:15px; text-decoration:none;">Contact</a>
-            <a href="Booknow.html" style="color:white; text-decoration:none; background:#e67e22; padding:8px 12px; border-radius:5px;">Book Now</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+            <a href="booknow.html" class="book-now-btn">Book Now</a>
         </nav>
     </header>
 
-    <!--Background -->
-    <section style="background:url('Images/pexels-sunhung94-28389516.jpg') no-repeat center/cover; height:400px; display:flex; align-items:center; justify-content:center; color:white; text-align:center;">
-        <div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
             <h2>Welcome to Luxury</h2>
             <p>Experience comfort and enjoyable offers at NEL WINSTON HOTEL</p>
-            <a href="Booknow.html" style="display:inline-block; margin-top:15px; padding:10px 20px; background:#e67e22; color:white; text-decoration:none; border-radius:5px;">Book Now</a>
+            <a href="booknow.html" class="hero-btn">Book Now</a>
         </div>
     </section>
 
-    <!-- About -->
-    <section style="padding:40px; text-align:center;">
-        <h2>ENJOY YOUR</h2>
+    <!-- About Section -->
+    <section class="about">
+        <h2>Enjoy Your Stay</h2>
         <p>NEL WINSTON HOTEL offers world-class accommodation, a relaxing spa, a modern gym, and a luxurious swimming pool. We ensure every guest experiences comfort, style, and unforgettable service.</p>
     </section>
 
-    <!-- Guest preference -->
-    <section style="background-color:#f4f4f4; padding:40px; text-align:center;">
-        <h2>Guest preference</h2>
-        <div style="display:flex; justify-content:space-around; flex-wrap:wrap;">
-            <div style="width:250px; margin:10px;">
-                <h3>Lets us know Your preference</h3>
-                <p>via Twitter/Facebook/Instagram/Tiktok.</p>
-            
+
+    <!-- Guest Preference Section -->
+    <section class="guest-preference">
+        <h2>Guest Preference</h2>
+        <div class="preference-container">
+            <div class="preference-card">
+                <h3>Let Us Know Your Preference</h3>
+                <p>Connect with us on social media</p>
+                <div class="social-links">
+                    <a href="https://twitter.com/nelwinston" target="_blank" rel="noopener noreferrer" aria-label="Twitter">Tw</a>
+                    <a href="https://facebook.com/nelwinston" target="_blank" rel="noopener noreferrer" aria-label="Facebook">Fb</a>
+                    <a href="https://instagram.com/nelwinston" target="_blank" rel="noopener noreferrer" aria-label="Instagram">Ig</a>
+                    <a href="https://tiktok.com/@nelwinston" target="_blank" rel="noopener noreferrer" aria-label="TikTok">Tt</a>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer style="background-color:#a79c62; color:white; text-align:center; padding:15px;">
+    <footer>
         <p>&copy; 2026 NEL WINSTON HOTEL. All rights reserved.</p>
     </footer>
 

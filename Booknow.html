@@ -3,100 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Booknow</title>
+    <meta name="description" content="Book your stay at NEL WINSTON HOTEL - Room pricing and reservations.">
+    <title>Book Now | NEL WINSTON HOTEL</title>
+    <!-- External CSS Stylesheet - Part 2 Requirement -->
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <Header>
+
+    <!-- Header -->
+    <header>
+        <h1>NEL WINSTON HOTEL</h1>
         <nav>
-            <h2>NEL WINSTON HOTEL</h2>
-            <hr>
-            <a href="Index.html">Home</a>
-            <a href="About.html">About</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
             <a href="services.html">Services</a>
-            <a href="Gallery.html">Gallery</a>
-            <a href="Contact.html">Contact Us</a>
-            <a href="Booknow.html">Book Now</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+            <a href="booknow.html" class="book-now-btn">Book Now</a>
         </nav>
-    </Header>
+    </header>
+
     <main>
-        
-<!-- ================= CONTACT.HTML ================= -->
-<body>
-  
-<h1 style="text-align:center;">Hotel Room Pricing</h1>
+        <section class="booking-page">
+            <h1>Hotel Room Pricing</h1>
 
-<div class="pricing-table">
-    <!-- One Room -->
-    <div class="pricing-card">
-        <h2>One Room</h2>
-        <p class="price">R1500-R3000 / night</p>
-        <ul class="features">
-            <li>1 Queen Bed</li>
-            <li>Free Wi-Fi</li>
-            <li>Breakfast Included</li>
-            <li>Air Conditioning</li>
-        </ul>
-        <a href="#" class="btn">Book Now</a>
-    </div>
+            <div class="pricing-table">
+                <!-- One Room -->
+                <div class="pricing-card">
+                    <h2>One Room</h2>
+                    <p class="price">R1500 - R3000 / night</p>
+                    <ul class="features">
+                        <li>1 Queen Bed</li>
+                        <li>Free Wi-Fi</li>
+                        <li>Breakfast Included</li>
+                        <li>Air Conditioning</li>
+                    </ul>
+                    <a href="#booking-form" class="btn">Book Now</a>
+                </div>
 
-    <!-- Double Room -->
-    <div class="pricing-card">
-        <h2>Double Room</h2>
-        <p class="price">R4000-R6500 / night</p>
-        <ul class="features">
-            <li>2 Queen Beds</li>
-            <li>Free Wi-Fi</li>
-            <li>Breakfast Included</li>
-            <li>City View</li>
-        </ul>
-        <a href="#" class="btn">Book Now</a>
-    </div>
+                <!-- Double Room -->
+                <div class="pricing-card">
+                    <h2>Double Room</h2>
+                    <p class="price">R4000 - R6500 / night</p>
+                    <ul class="features">
+                        <li>2 Queen Beds</li>
+                        <li>Free Wi-Fi</li>
+                        <li>Breakfast Included</li>
+                        <li>City View</li>
+                    </ul>
+                    <a href="#booking-form" class="btn">Book Now</a>
+                </div>
 
-    <!-- Suite -->
-    <div class="pricing-card">
-        <h2>Suite</h2>
-        <p class="price">R8000-R15000 / night</p>
-        <ul class="features">
-            <li>King Bed + Living Area</li>
-            <li>Free Wi-Fi</li>
-            <li>Breakfast & Dinner Included</li>
-            <li>Ocean View</li>
-        </ul>
-        <a href="#" class="btn">Book Now</a>
-    </div>
-</div>
-  <h2>Book a Room</h2>
+                <!-- Suite -->
+                <div class="pricing-card">
+                    <h2>Suite</h2>
+                    <p class="price">R8000 - R15000 / night</p>
+                    <ul class="features">
+                        <li>King Bed + Living Area</li>
+                        <li>Free Wi-Fi</li>
+                        <li>Breakfast & Dinner Included</li>
+                        <li>Ocean View</li>
+                    </ul>
+                    <a href="#booking-form" class="btn">Book Now</a>
+                </div>
+            </div>
 
-     <form>
-<label>Full Name:</label><br>
-<input type="text" required><br><br>
+            <h2 id="booking-form">Book a Room</h2>
 
-<label>Email:</label><br>
-<input type="email" required><br><br>
+            <form class="booking-form" action="#" method="POST">
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="full-name" required>
 
-<label>Check-in Date:</label><br>
-<input type="date" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
 
-<label>Check-out Date:</label><br>
-<input type="date" required><br><br>
+                <label for="check-in">Check-in Date:</label>
+                <input type="date" id="check-in" name="check-in" required>
 
-<label>Room Type:</label><br>
-<select>
-<option>Single Room</option>
-<option>Double Room</option>
-<option>Suite</option>
-</select><br><br>
+                <label for="check-out">Check-out Date:</label>
+                <input type="date" id="check-out" name="check-out" required>
 
+                <label for="room-type">Room Type:</label>
+                <select id="room-type" name="room-type" required>
+                    <option value="">Select a room</option>
+                    <option value="single">Single Room</option>
+                    <option value="double">Double Room</option>
+                    <option value="suite">Suite</option>
+                </select>
 
-<button type="submit">Confirm Booking</button>
-    </form>
-      </Main>
+                <button type="submit">Confirm Booking</button>
+            </form>
+        </section>
+    </main>
 
-      <!--Footer-->
-    <footer style="text-align: center;">
-        <hr>
-        <p>&copy; Copyrights | Nel Wiston Hotel</p>
-
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 NEL WINSTON HOTEL. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
